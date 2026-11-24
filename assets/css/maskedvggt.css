@@ -39,6 +39,9 @@
 .paper-box .paper-link-project:hover { background: #e0f3ed; border-color: #70afa0; }
 .paper-box .paper-link-project:focus-visible { outline: 2px solid #23746b; outline-offset: 3px; }
 @media (min-width: 48em) {
-  #maskedvggt .paper-box-image { max-width: 48%; }
-  #maskedvggt .paper-box-text { max-width: 52%; padding-left: 1.5em; }
+  .paper-box .paper-box-image { max-width: 48%; }
+  .paper-box .paper-box-text { max-width: 52%; padding-left: 1.5em; }
 }
+
+.paper-box .paper-box-image > div { width: 100%; }
+.paper-box .paper-box-image img { width: 100%; max-width: none; height: auto; }
